@@ -39,7 +39,7 @@ async def cmd_start(message: Message):
     # I need name for bot
     greeting = (
         f"Приветствую, <b>{user_name}</b>!\n\n"
-        "Я <b>NOT_Elon_TGBOT</b>\n"
+        "Я <b>Selena Moon bot</b>\n"
         "Я получаю данные о Луне с astrolab.ru, и всегда готов ими поделиться.\n\n"
         "Ты можешь легко получить необходимые данные, отправив мне сообщение в формате: <b>YYYY-MM-DD</b> (к примеру, <b>2024-04-25</b>).\n\n"
         "Если Вам нужна точность 'до секунды', введите дату в формате: <b>YYYY-MM-DD-HH-MM-SS</b> (к примеру, <b>2024-04-25-01-01-01</b>).\n\n"
